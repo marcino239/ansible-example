@@ -1,0 +1,11 @@
+--- 
+#Tsting 
+- hosts: all
+  vars: 
+    test1: "Hello World" 
+  tasks: 
+    - name: Testing Ansible variable 
+      shell: "pwd"
+      register: output
+
+ 
